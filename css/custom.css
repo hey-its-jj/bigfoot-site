@@ -1,0 +1,362 @@
+/*UNIVERSAL */
+
+body {
+	background-color: #272727;
+	color: white;
+	box-sizing: border-box;
+	overflow-x: hidden !important;
+}
+
+body a {
+	color: #FFC836;
+}
+
+body a:hover {
+	color: palegoldenrod;
+}
+
+article {
+	position: relative;
+}
+
+.mb-4 {
+	margin-bottom: 0px !important;
+}
+
+.treecolL {
+	background-image: url(../assets/img/treeL.png);
+	background-size: 170px auto;
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+.treecolR {
+	background-image: url(../assets/img/treeR.png);
+	background-size: 170px auto;
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+.center {
+	display: block;
+	margin: auto;
+}
+
+.colorDiv {
+	background-color: #303030;
+	max-width: 100%;
+	position: relative;
+}
+
+.articleP {
+	width: 700px;
+	margin: auto;
+}
+
+.section-heading {
+	margin-top: 40px;
+	font-size: 5rem;
+	font-weight: 800;
+	text-align: center;
+	color: #FFC836;
+}
+
+.insideBox {
+	background-color: #303030;
+	border-radius: 10px;
+}
+
+.outline {
+	border: 1px solid white;
+}
+
+.makeRed {
+	color: #F56646;
+}
+
+.makeYellow {
+	color: #FFC836;
+}
+
+.addPadding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/*Adding margin did nothing, I guess because the other elements are display: flex.*/
+}
+
+.addMargin {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.quoteEdit {
+	color: #BCBCBC;
+	font-size: 40px;
+}
+
+.noDeco {
+	text-decoration: none;
+}
+
+.caption {
+	font-size: 18px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+
+/*HEADING*/
+
+	.site-heading {
+		background-color: rgba(0, 0, 0, .5);
+		padding: 40px;
+		border-radius: 10px;
+	}
+
+/*CHARTS */
+
+.chart {
+    width: 100%;
+    }
+
+    /*US MAP*/
+
+    	#mapCol {
+    		border-left: 3px dashed white;
+    		padding-left: 50px;
+    		display: flex;
+    		align-items: center;
+    		position: relative;
+
+    	}
+
+    	#geochart div {
+    		margin: auto;
+    	}
+
+    	#footDataCol {
+    		padding-right: 50px;
+    	}
+
+    	#mapbreaks {
+    		display: none;
+    	}
+
+    	@media (max-width: 1200px) {
+    		#mapCol {
+    			border-left: none;
+    			border-top: 3px dashed white;
+    			justify-content: center;
+    			padding: 0px;
+    		}
+
+    		#zigzagTop, #zigzagBottom {
+    			display: none;
+    		}
+
+    		#nationMap h1 {
+    		margin-top: 55px;
+    		}
+
+    		#footDataCol {
+    			padding: 0px;
+    			max-width: 65%;
+    		}
+
+    		#mapbreaks {
+    			display: flex;
+    		}
+    	}
+
+    	@media (max-width: 990px) {
+    		#footDataCol {
+    			max-width: 100%;
+    		}
+    	}
+
+    	#thedropdown {
+    		display: block;
+    		margin: auto;
+    	}
+
+    	#thetype {
+    		display: none;
+    	}
+
+   	/*END US MAP*/
+
+    /*SEARCH CHART*/
+
+		#ugh {
+			overflow: hidden;
+			border-radius: 10px;
+			margin-bottom: 70px;
+		}
+
+		#searchBox {
+			overflow: auto;
+			max-height: 700px;
+			max-width: 100%;
+			padding: 20px;
+			margin: auto;
+		}
+
+		#searchBox table {
+			width: 100%;
+		}
+
+		#searchChart th {
+			text-align: center;
+			border-right: 1px solid white;
+			border-left: 1px solid white;
+		}
+
+		#searchChart td {
+			padding: 6px;
+			text-align: center;
+			border-right: 1px solid white;
+			border-left: 1px solid white;
+		}
+	/*END SEARCH CHART*/
+
+	/*COL CHART*/
+
+		#column_chart g text {
+      		fill: white;
+    	}
+
+	/*END COL CHART*/
+
+/*SECTION 1*/
+
+	#tempBF {
+		max-width: 500px;
+	}
+
+	#tempBF2 {
+		display: none;
+		max-width: 500px;
+	}
+
+	@media (max-width: 1400px) {
+		#tempBF {
+			display: none;
+		}
+
+		#tempBF2 {
+			display: inline-block;
+			margin: 0 auto;
+		}
+
+	}
+
+	#treecolTopL {
+		position: relative;
+	}
+
+	#treetopL {
+		position: absolute;
+		z-index: -1;
+		bottom: -75px;
+		left: -141px;
+		max-width: 390px;
+	}
+
+	#treecolTopR {
+		position: relative;
+	}
+
+	#treetopR {
+		position: absolute;
+		z-index: -1;
+		bottom: -75px;
+		right: -141px;
+		max-width: 390px;
+	}
+
+	@media (max-width: 990px) {
+    		#treetopL, #treetopR {
+    			display: none;
+    		}
+    	}
+
+/*BIGFOOT DATA*/
+
+	#zigzagTop {
+		max-width: 1000px;
+		position: absolute;
+		left: 0px;
+		top: 60px;
+
+	}
+
+	#zigzagBottom {
+		max-width: 1000px;
+		position: absolute;
+		left: 0px;
+		bottom: 60px;
+
+	}
+
+/*TOP 5*/
+
+	ol {
+		list-style: none;
+	}
+
+	.topState {
+		display: flex;
+	}
+
+	.tsNum {
+		float: left;
+		font-size: 70px;
+		margin-right: 10px;
+	}
+
+	.tsSubs {
+		padding-top: 5px;
+	}
+
+	.tsSubs h2 {
+		color: #F56646;
+	}
+
+/*WASHINGTON*/
+
+	#pings {
+		max-width: 100%;
+	}
+
+/*MISTAKEN IDENTITY*/
+
+	#bearMap {
+		max-width: 80%;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+/*CONCLUSION*/
+
+	#bigfootStand {
+		position: absolute;
+		max-width: 150px;
+		bottom: 0px;
+		left: 20px;
+	}
+
+	#compare {
+		max-width: 100%;
+	}
+
+	@media (max-width: 1610px) {
+		#bigfootStand {
+			display: none;
+		}
+	}
+
+	.fa-stack {
+		color: black;
+	}

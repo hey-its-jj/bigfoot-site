@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Where in the U.S. is Bigfoot?</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+        <!-- JAVASCRIPT -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="data.json"></script>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#">Where in the U.S. is Bigfoot?</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#nationwide">National Data</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#top5">Top 5 States</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#washington">#1 State</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/coolFoot.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1 class="makeYellow">WHERE IN THE U.S. IS BIGFOOT?</h1>
+                            <span class="subheading">Sasquatch tracking in the U.S. of A.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <article class="mb-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div id="treecolTopL" class="col-lg-2">
+                        <!--Empty on purpose-->
+                        <img id="treetopL" src="assets/img/treetopL.png">
+                    </div>
+                    <div class="col-lg-8">
+                        <p>It's time to track this boy down once and for all.</p>
+                        <p>And by boy, I mean girl. And by girl, I mean somewhere in the area of 2,000 to 6,000 individuals.</p>
+                        <p>If you're anything like me, you might've figured that captial-B-Bigfoot represents a single, elusive and undying cryptid that makes the entirety of the North American woodlands its abode. It eludes capture and documentation not only because of its mystifying, preternatural ways, but also because it kind of doesn't exist.</p>
+                        <p>After about a year of listening to <a href="https://podcasts.apple.com/us/podcast/sasquatch-tracks/id1518903701" target="_">cryptid podcasts</a> to dull the existential pains of working a desk job, though, I learned that there's a dedicated community of actual sasquatch trackers who pursue the legendary creature in much the same way they would any extant species. To them, Bigfoot is like any other animal: Not only does it exist, but it exists in numbers.</p>
+                        <p>It's from this community--namely those at the <a href="https://www.bfro.net/" target="_">Bigfoot Field Researchers Organization</a>--that I derived the data I'm using to suss out which state has the most bigfoot sightings, and why. It's a spreadsheet compiled by <a href="https://data.world/timothyrenner/bfro-sightings-data/workspace/file?filename=bfro_reports_geocoded.csv" target="_">Timothy Renner</a> full of sightings reported from 2021 to as early as the 1800s.</p>
+                        <p>I have to clarify that, despite what it may seem, I am not a believer. I love the idea of cryptids, but if you ask me, way too much time has passed with way too little evidence to suggest that we're just not looking in the right places. I'm more of a fan of the lore, if that makes sense. It's a fun part of human culture.</p>
+                        <img id="tempBF" class="float-md-end" src="assets/img/googoo2.png">
+                        <p>Still, my goal isn't to run a sardonic expos&eacute; on legitimate sasquatch trackers. There's a story in the data here, and that's all I'm concerned with. What part of the U.S. is responsible for the most bigfoot sightings? <em>Where is Bigfootopia, U.S.A?</em></p>
+                        <img id="tempBF2" src="assets/img/googoo2.png">
+                        
+                        <br>
+                    </div>
+                    <div id="treecolTopR" class="col-lg-2">
+                        <!--Empty on purpose-->
+                        <img id="treetopR" src="assets/img/treetopR.png">
+                    </div>
+                </div>
+            </div>
+            <div class="colorDiv">
+                <div class="container">
+                    <div class="row justify-content-center">
+                    <div id="footDataCol" class="col-xl-6">
+
+                        <h2 id="nationwide" class="section-heading">NATIONWIDE 'FOOT DATA</h2>
+
+                        <p>This chart shows the distribution of bigfoot sightings reported to the BFRO. Use the dropdown to toggle between data regarding the different sighting classes, which the BFRO <a href="https://www.bfro.net/gdb/classify.asp" target="_">defines as follows:</a></p>
+
+                        <ul>
+                            <li>
+                               <h3><span class="makeRed">Class A:</span> I Definitely Saw One</h3>
+                               <p>"Clear sightings in circumstances where misinterpretation or misidentification of other animals can be ruled out with greater confidence."</p> 
+                            </li>
+                            <li>
+                               <h3><span class="makeRed">Class B:</span> I Think I Saw One</h3>
+                               <p>"Incidents where a possible sasquatch was observed at a great distance or in poor lighting conditions and incidents in any other circumstance that did not afford a clear view of the subject."</p> 
+                            </li>
+                            <li>
+                               <h3><span class="makeRed">Class C:</span> Hearsay</h3>
+                               <p>"Most second-hand reports, and any third-hand reports, or stories with an untraceable source."</p> 
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+                    <div id="mapCol" class="col-xl-6">
+                        
+                                <img id="zigzagTop" src="assets/img/zigzag.png">
+                            
+                        <!--START NATIONAL MAP CHART -->
+                        <div id="nationMap">
+                            
+
+                            <h1 class="text-center">U.S. Bigfoot Sightings Since 1869 </h1>
+
+                            <br>
+
+                            <form id="form1" onchange="drawRegionsMap()">
+                                <select id="thedropdown">
+                                <option value="All Sightings">All Sightings</option>
+                                <option value="Class A Sightings">Class A Sightings</option>
+                                <option value="Class B Sightings">Class B Sightings</option>
+                                <option value="Class C Sightings">Class C Sightings</option>
+                                </select>
+                            </form>
+
+                            <br>
+
+                            <h2 id="thetype"></h2>
+                            <div id="geochart" class="chart"></div>
+
+                            <br>
+
+                            <h4 class="text-center">(...or at least the ones reported to the BFRO)</h4>
+
+                            <img id="zigzagBottom" src="assets/img/zigzag.png">
+                            
+
+                            <div id="mapbreaks">
+                                <br>
+                                <br>
+                            </div>
+
+                            <script type="text/javascript">
+                              google.charts.load('current', {'packages':['geochart']});
+                              google.charts.setOnLoadCallback(drawRegionsMap);
+
+                              function drawRegionsMap() {
+                            
+                            var statedata = [
+                                 {
+                                   "measure": "Class A Sightings",
+                                   "alaska": 12,
+                                   "alabama": 60,
+                                   "arkansas": 67,
+                                   "arizona": 28,
+                                   "california": 181,
+                                   "colorado": 74,
+                                   "connecticut": 6,
+                                   "districtofcolumbia": 0,
+                                   "delaware": 2,
+                                   "florida": 155,
+                                   "georgia": 64,
+                                   "hawaii": 0,
+                                   "iowa": 26,
+                                   "idaho": 48,
+                                   "illinois": 120,
+                                   "indiana": 36,
+                                   "kansas": 26,
+                                   "kentucky": 68,
+                                   "louisiana": 28,
+                                   "massachusetts": 8,
+                                   "maryland": 16,
+                                   "maine": 7,
+                                   "michigan": 99,
+                                   "minnesota": 33,
+                                   "missouri": 88,
+                                   "mississippi": 16,
+                                   "montana": 24,
+                                   "northcarolina": 43,
+                                   "northdakota": 3,
+                                   "nebraska": 9,
+                                   "newhampshire": 3,
+                                   "newjersey": 29,
+                                   "newmexico": 23,
+                                   "nevada": 4,
+                                   "newyork": 45,
+                                   "ohio": 159,
+                                   "oklahoma": 59,
+                                   "oregon": 114,
+                                   "pennsylvania": 68,
+                                   "rhodeisland": 3,
+                                   "southcarolina": 23,
+                                   "southdakota": 7,
+                                   "tennessee": 51,
+                                   "texas": 134,
+                                   "utah": 24,
+                                   "virginia": 35,
+                                   "vermont": 3,
+                                   "washington": 243,
+                                   "wisconsin": 32,
+                                   "westvirginia": 56,
+                                   "wyoming": 18
+                                 },
+                                 {
+                                   "measure": "Class B Sightings",
+                                   "alaska": 8,
+                                   "alabama": 33,
+                                   "arkansas": 31,
+                                   "arizona": 57,
+                                   "california": 231,
+                                   "colorado": 53,
+                                   "connecticut": 12,
+                                   "districtofcolumbia": 0,
+                                   "delaware": 3,
+                                   "florida": 147,
+                                   "georgia": 62,
+                                   "hawaii": 0,
+                                   "iowa": 30,
+                                   "idaho": 48,
+                                   "illinois": 113,
+                                   "indiana": 43,
+                                   "kansas": 19,
+                                   "kentucky": 45,
+                                   "louisiana": 12,
+                                   "massachusetts": 20,
+                                   "maryland": 18,
+                                   "maine": 10,
+                                   "michigan": 117,
+                                   "minnesota": 39,
+                                   "missouri": 70,
+                                   "mississippi": 5,
+                                   "montana": 24,
+                                   "northcarolina": 46,
+                                   "northdakota": 1,
+                                   "nebraska": 6,
+                                   "newhampshire": 11,
+                                   "newjersey": 37,
+                                   "newmexico": 19,
+                                   "nevada": 3,
+                                   "newyork": 66,
+                                   "ohio": 143,
+                                   "oklahoma": 38,
+                                   "oregon": 135,
+                                   "pennsylvania": 47,
+                                   "rhodeisland": 2,
+                                   "southcarolina": 18,
+                                   "southdakota": 6,
+                                   "tennessee": 43,
+                                   "texas": 94,
+                                   "utah": 32,
+                                   "virginia": 44,
+                                   "vermont": 7,
+                                   "washington": 355,
+                                   "wisconsin": 51,
+                                   "westvirginia": 47,
+                                   "wyoming": 9
+                                 },
+                                 {
+                                   "measure": "Class C Sightings",
+                                   "alaska": 0,
+                                   "alabama": 1,
+                                   "arkansas": 3,
+                                   "arizona": 0,
+                                   "california": 5,
+                                   "colorado": 0,
+                                   "connecticut": 0,
+                                   "districtofcolumbia": 0,
+                                   "delaware": 0,
+                                   "florida": 0,
+                                   "georgia": 0,
+                                   "hawaii": 0,
+                                   "iowa": 0,
+                                   "idaho": 0,
+                                   "illinois": 4,
+                                   "indiana": 0,
+                                   "kansas": 0,
+                                   "kentucky": 1,
+                                   "louisiana": 1,
+                                   "massachusetts": 1,
+                                   "maryland": 0,
+                                   "maine": 0,
+                                   "michigan": 0,
+                                   "minnesota": 0,
+                                   "missouri": 0,
+                                   "mississippi": 0,
+                                   "montana": 3,
+                                   "northcarolina": 0,
+                                   "northdakota": 0,
+                                   "nebraska": 0,
+                                   "newhampshire": 0,
+                                   "newjersey": 0,
+                                   "newmexico": 0,
+                                   "nevada": 0,
+                                   "newyork": 0,
+                                   "ohio": 1,
+                                   "oklahoma": 0,
+                                   "oregon": 0,
+                                   "pennsylvania": 0,
+                                   "rhodeisland": 0,
+                                   "southcarolina": 0,
+                                   "southdakota": 0,
+                                   "tennessee": 2,
+                                   "texas": 2,
+                                   "utah": 2,
+                                   "virginia": 0,
+                                   "vermont": 0,
+                                   "washington": 3,
+                                   "wisconsin": 0,
+                                   "westvirginia": 0,
+                                   "wyoming": 1
+                                 },
+                                 {
+                                   "measure": "All Sightings",
+                                   "alaska": 20,
+                                   "alabama": 94,
+                                   "arkansas": 101,
+                                   "arizona": 85,
+                                   "california": 417,
+                                   "colorado": 127,
+                                   "connecticut": 18,
+                                   "districtofcolumbia": 0,
+                                   "delaware": 5,
+                                   "florida": 302,
+                                   "georgia": 126,
+                                   "hawaii": 0,
+                                   "iowa": 56,
+                                   "idaho": 96,
+                                   "illinois": 237,
+                                   "indiana": 79,
+                                   "kansas": 45,
+                                   "kentucky": 114,
+                                   "louisiana": 41,
+                                   "massachusetts": 29,
+                                   "maryland": 34,
+                                   "maine": 17,
+                                   "michigan": 216,
+                                   "minnesota": 72,
+                                   "missouri": 158,
+                                   "mississippi": 21,
+                                   "montana": 51,
+                                   "northcarolina": 89,
+                                   "northdakota": 4,
+                                   "nebraska": 15,
+                                   "newhampshire": 14,
+                                   "newjersey": 66,
+                                   "newmexico": 42,
+                                   "nevada": 7,
+                                   "newyork": 111,
+                                   "ohio": 303,
+                                   "oklahoma": 97,
+                                   "oregon": 249,
+                                   "pennsylvania": 115,
+                                   "rhodeisland": 5,
+                                   "southcarolina": 41,
+                                   "southdakota": 13,
+                                   "tennessee": 96,
+                                   "texas": 230,
+                                   "utah": 58,
+                                   "virginia": 79,
+                                   "vermont": 10,
+                                   "washington": 601,
+                                   "wisconsin": 85,
+                                   "westvirginia": 103,
+                                   "wyoming": 27
+                                 }
+                                ];
+
+                                  //select thedropdown element
+                                  selection = document.getElementById("thedropdown").value;
+
+                                  document.getElementById("thetype").innerHTML = selection;
+
+                                  //go json and find proper measure, assign values to each state variable
+                                  for(i=0; i<statedata.length; i++) {
+                                    if(selection == statedata[i].measure) {
+
+
+                                  //this draws the chart
+                                var data = google.visualization.arrayToDataTable([
+                                  ['State', selection],
+                                  [ "Alaska", statedata[i].alaska ],
+                                  [ "Alabama", statedata[i].alabama ],
+                                  [ "Arkansas", statedata[i].arkansas ],
+                                  [ "Arizona", statedata[i].arizona ],
+                                  [ "California", statedata[i].california ],
+                                  [ "Colorado", statedata[i].colorado ],
+                                  [ "Connecticut", statedata[i].connecticut ],
+                                  [ "Delaware", statedata[i].delaware ],
+                                  [ "Florida", statedata[i].florida ],
+                                  [ "Georgia", statedata[i].georgia ],
+                                  [ "Hawaii", statedata[i].hawaii ],
+                                  [ "Iowa", statedata[i].iowa ],
+                                  [ "Idaho", statedata[i].idaho ],
+                                  [ "Illinois", statedata[i].illinois ],
+                                  [ "Indiana", statedata[i].indiana ],
+                                  [ "Kansas", statedata[i].kansas ],
+                                  [ "Kentucky", statedata[i].kentucky ],
+                                  [ "Louisiana", statedata[i].louisiana ],
+                                  [ "Massachusetts", statedata[i].massachusetts ],
+                                  [ "Maryland", statedata[i].maryland ],
+                                  [ "Maine", statedata[i].maine ],
+                                  [ "Michigan", statedata[i].michigan ],
+                                  [ "Minnesota", statedata[i].minnesota ],
+                                  [ "Missouri", statedata[i].missouri ],
+                                  [ "Mississippi", statedata[i].mississippi ],
+                                  [ "Montana", statedata[i].montana ],
+                                  [ "North Carolina", statedata[i].northcarolina ],
+                                  [ "North Dakota", statedata[i].northdakota ],
+                                  [ "Nebraska", statedata[i].nebraska ],
+                                  [ "New Hampshire", statedata[i].newhampshire ],
+                                  [ "New Jersey", statedata[i].newjersey ],
+                                  [ "New Mexico", statedata[i].newmexico ],
+                                  [ "Nevada", statedata[i].nevada ],
+                                  [ "New York", statedata[i].newyork ],
+                                  [ "Ohio", statedata[i].ohio ],
+                                  [ "Oklahoma", statedata[i].oklahoma ],
+                                  [ "Oregon", statedata[i].oregon ],
+                                  [ "Pennsylvania", statedata[i].pennsylvania ],
+                                  [ "Rhode Island", statedata[i].rhodeisland ],
+                                  [ "South Carolina", statedata[i].southcarolina ],
+                                  [ "South Dakota", statedata[i].southdakota ],
+                                  [ "Tennessee", statedata[i].tennessee ],
+                                  [ "Texas", statedata[i].texas ],
+                                  [ "Utah", statedata[i].utah ],
+                                  [ "Virginia", statedata[i].virginia ],
+                                  [ "Vermont", statedata[i].vermont ],
+                                  [ "Washington", statedata[i].washington ],
+                                  [ "Wisconsin", statedata[i].wisconsin ],
+                                  [ "West Virginia", statedata[i].westvirginia ],
+                                  [ "Wyoming", statedata[i].wyoming ]
+                                ]);
+                                    }// end if
+                                  }// end for
+
+                                var options = {
+                                  region: 'US',
+                                  displayMode: 'regions',
+                                  resolution: 'provinces',
+                                  colorAxis: {colors: ['#403330', '#5C302B', '#D74533', '#DE402D', '#F23E28']},
+                                  backgroundColor: '#272727'
+                                };
+
+                                var chart = new google.visualization.GeoChart(document.getElementById('geochart'));
+                                chart.draw(data, options);
+                              }
+                               // this function makes the chart responsive; include the name of the proper drawChart function; if more than one chart on page, include additional statements for each drawChart function
+                            window.onresize = function() {
+                            drawRegionsMap();
+                            }
+                            </script>
+                        </div>
+                        <!--END NATIONAL MAP CHART -->       
+                        <!--
+                        <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+                        -->
+                        
+                    
+                        </div><!--closes the col-->
+                    </div><!--closes the row-->   
+                    </div><!--closes the container-->
+            </div><!--closes colorDiv-->
+
+            <div class="container">
+                <!--For now, I'm just gonna put this whole section in one row. Will change later.-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 treecolL">
+                    <!--Empty on purpose-->   
+                    </div>
+                    <div class="col-lg-8">
+                    
+                        <h2 id="top5" class="section-heading text-center">TOP 5 BIGFOOT STATES</h2>
+                        <p>Which states top the charts in terms of bigfoot sightings? Try to act like #1 isn't obvious given the map data you just saw.</p>
+
+                        <ol>
+                            <li value="5">
+                                <div class="topState">
+                                    <h2 class="tsNum">
+                                        5
+                                    </h2>
+                                    <div class="tsSubs">
+                                        <h2>OREGON</h2>
+                                        <h4>Reported Sightings: 249</h4>
+                                    </div>
+                                </div>
+                                <p>It's not fair to say I was disappointed when I found out that Oregon narrowly made the Top 5, but I was disappointed when I found out that Oregon narrowly made the Top 5. And it's not for lack of trying; Bigfoot has been recognized (jokingly) by Oregon's government <a href="https://www.oregonencyclopedia.org/articles/bigfoot_sasquatch_legend/" target="_">a non-zero amount of times</a> and has been situated alongside timeless native tales. The coniferous forests, the foggy mountain ranges--it's prime bigfoot real estate. How did Oregon place below--</p>
+                            </li>
+                            <li value="4">
+                                <div class="topState">
+                                    <h2 class="tsNum">
+                                        4
+                                    </h2>
+                                    <div class="tsSubs">
+                                        <h2>FLORIDA</h2>
+                                        <h4>Reported Sightings: 302</h4>
+                                    </div>
+                                </div>
+                                <p>You know, when I think of bigfoot, I don't necessarily think of Florida. It's literally as far from the Pacific Northwest as you can get while still being in the contigugous United States. But if I learned anything from this data, it's that the image of Bigfoot manifests in many ways and many places. In Florida, it's associated, if not synonymous, with <a href="https://en.wikipedia.org/wiki/Skunk_ape" target="_">the skunk ape,</a> which has permeated southeastern culture in much the same way that sasquatch has northwestern culture.</p>
+                            </li>
+                            <li value="3">
+                                <div class="topState">
+                                    <h2 class="tsNum">
+                                        3
+                                    </h2>
+                                    <div class="tsSubs">
+                                        <h2>OHIO</h2>
+                                        <h4>Reported Sightings: 303</h4>
+                                    </div>
+                                </div>
+                                <p>Every now and again, I'm reminded that Ohio exists, and it's always for reasons like this. Since when was it a hotbed for cryptid, and otherwise paranormal, activity? Maybe because Ohio sits squarely in land that is historically Iroquois, its share of the sightings could be related to Iroquois stories about the <em>Genoskwa</em>, a creature similar in description to the conventional understanding of a bigfoot.</p>
+                            </li>
+                            <li value="2">
+                                <div class="topState">
+                                    <h2 class="tsNum">
+                                        2
+                                    </h2>
+                                    <div class="tsSubs">
+                                        <h2>CALIFORNIA</h2>
+                                        <h4>Reported Sightings: 417</h4>
+                                    </div>
+                                </div>
+                                <p>It makes sense geographically--California stretches way up to the Pacific Northwest, where the most bigfoot sightings are concentrated--but I can't find much literature regarding Bigfoot's impact on California's culture. The best I could muster was an article about <a href="https://www.thrillist.com/travel/nation/willow-creek-california-bigfoot-capital-of-the-world" target="_">Willow Creek,</a> "Bigfoot Capital of the World", which is apparently responsible for over 300 of California's bigfoot sightings, but the data I pulled from the BFRO doesn't seem to corroborate that.</p>
+                            </li>
+                        </ol>
+
+                        <!--
+                        <a href="#!"><img class="center img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
+
+                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                        -->
+                        <p>Before we get to #1, which you didn't guess already, here's something fun to do: Provided your state isn't in the Top 5, punch it into the search query below to find out where it stacks up. Maybe your state <em>is</em> in the Top 5, and you just want to be extra sure.</p>
+
+                        <!--START SEARCH CHART -->
+                        
+                            <div id="ugh" class="addMargin">
+                                <div id="searchBox" class="insideBox">
+                                    <h3 class="text-center">Where's Bigfoot in Your State?</h3>
+                                    <div id="searchChart">
+                                        <h1 class="text-center">BFRO Sighting Reports 2017 - 2021</h1>
+                                        <form id="form2">
+                                        <p>Search for a State: <input type="text" id="term" /></p>
+                                        <input type="submit" value="Submit" />
+                                        </form>
+                                        <p>No. of Reports: <span id="answer3"></span></p>
+                                        <table width="80%">
+                                        <thead>
+                                            <th>State</th><th>Latitude</th><th>Longitude</th><th>Date</th><th>Classification</th>
+                                        </thead>
+                                        <tbody id="answer">
+                                        </tbody>
+                                        </table>
+
+                                        <script>
+
+                                            document.getElementById("form2").onsubmit = function() {
+                                            document.getElementById("answer").innerHTML = "";
+                                            j=0;
+                                            searchterm = document.getElementById("term").value;
+                                            searchtermlower = searchterm.toLowerCase();
+                                            searchtermlength = searchterm.length;
+
+                                            for(i=0;i<data.length; i++) {
+                                            datalower = (data[i].state).toLowerCase();
+                                            datasearch = datalower.substring(0,searchtermlength);
+                                            if(searchtermlower == datasearch) {
+                                             document.getElementById("answer").innerHTML += "<tr><td>" + data[i].state + "</td><td>" + data[i].latitude + "</td><td>" + data[i].longitude + "</td><td>" + data[i].date + "</td><td>" + data[i].classification + "</td></tr>";
+                                            j++;
+                                             }
+                                            }
+                                             document.getElementById("answer3").innerHTML = j;
+                                             return false;
+                                             }
+                                         </script>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        <!--END SEARCH CHART -->
+
+                        <p>Anyway, with 601 reported sightings, the state with the most bigfoot sightings by far is...</p>
+                    
+                        <br>
+
+                        <hr>
+
+                        <h2 id="washington" class="section-heading text-center">WASHINGTON</h2>
+                        <p>...a full <em>four</em> placements ahead of its neighbor, Oregon, and nearly 200 reports ahead of the runner-up, California. With legends that originate in Native American culture and documented sightings as early as the 1800s, Washington is responsible much of what the average American understands as quintessentially "Bigfoot". There's a reason there was a bill that would've made Bigfoot Washington's <a href="https://www.issaquahreporter.com/northwest/bigfoot-eludes-state-recognition-yet-again/" target="_">official state cryptid</a>--an imaginative elementary schooler and a bored Republican, yes, but a reason nonetheless.</p>
+                        <p>Below you'll find an interactive map of Washington with markers that correspond to every bigfoot sighting ever reported to the BFRO (up to 2021). Click on any one of them to read more details about the sighting, including date and summary.</p>
+
+                        <iframe id="pings" class="center addMargin" src="https://www.google.com/maps/d/u/0/embed?mid=1MAN8jKDc5HGQpACxsPLUtoAhw7KXTRs&ehbc=2E312F" width="640" height="480"><</iframe>
+                        
+                        <p>What fascinates me are the ones in the middle of nowhere--out in the arid, unforested steppes. Imagine puttering sleepily down a lonely prarie road, hours from anywhere traditionally understood as bigfoot turf, just to catch sight of one on the horizon, its head the highest point of elevation for miles.</p>
+                        <p>But it's clear that sightings generally overlap with parts of Washington that are heavily forested. This certainly tracks given that remote forests are thought to be ideal bigfoot habitat, but they're also ideal habitat for a number of other critters, which sadly brings us to the dilemma of...</p>
+
+                        <hr>
+
+                        <h2 class="section-heading text-center">MISTAKEN IDENTITY</h2>
+                        <p>This is the part where I crush your dreams. What, if not bigfoots, could possibly account for these sightings?</p>
+                        <p>The simplest and probably most frequently espoused explanation is that it's a boring, non-cryptid animal. Remember that map of Washington we saw, like, five seconds ago? Well, here's another map from the <a href="http://naturemappingfoundation.org/natmap/maps/wa/mammals/WA_black_bear.html#:~:text=Black%20Bears%20are%20found%20throughout,killed%20or%20relocated%20when%20noticed." target="_">Washington NatureMapping Foundation</a> that shows, in green, the breeding range of black bears in the state.</p>
+
+                        <div class="addMargin">
+                            <img id="bearMap" class="center" src="assets/img/greenMap.jpg">
+                            <span class="caption text-muted text-center">The black bear breeding range lines up pretty well with Washington's bigfoot sightings.</span>
+                        </div>
+
+                        <p>Okay, I know: Correlation does not equal causation. I could show you the distribution of any woodland creature here, regardless of their passing resemblance to Bigfoot, and probably end up with a similar map.</p>
+                        <p>Still, of all the living creatures to mistake for bigfoot, isn't a black bear sort of apropos? <a href="https://www.bfro.net/REF/THEORIES/WHF/FahrenbachArticle.htm" target="_">According to the BFRO,</a> a bigfoot stands at somewhere between 6 and 9 feet tall. An average black bear--standing on hind legs, mind you--is 4 to 6 feet tall. They're in the same ballpark is all I'm saying.</p>
+                        <p>Alright, but any old bear can <em>stand</em>. What about the people who swear they saw something <em>walking</em> upright? Surely bears can't walk like people do.</p>
+                        <p>Behold, and beware:</p>
+
+                        <div class="addMargin">
+
+                        <iframe class="center" width="1280" height="520" src="https://www.youtube.com/embed/_vqI_jC_qcY" title="Bear Who Walks On Two Legs Is Back To Strolling Around The Neighborhood" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <span class="caption text-muted">This video from Inside Edition portrays with nightmarish clarity the ability of a black bear to walk upright.</span>
+
+                        </div>
+
+                        <p>Does this startle you? It startled me. I mean, look. This is unreasonably disconcerting. If I saw that one night on the way back from the outhouse, I'd absolutely pin it as an extant cryptid.</p>
+
+                        <blockquote class="blockquote quoteEdit">"We looked out to see what it was and thought it was a person wearing a hoodie. He looks just like a human from the back."</blockquote>
+
+                        <p>And this isn't some genius circus bear on the lam; this bear, God rest its soul, was missing one of its front paws and learned to walk like this on its own. Tragic injury and amusing adaptation notwithstanding, this is a regular-degular bear. It's possible that someone could come across a standing--even walking--bear in the wild, although the former is probably much more likely.</p>
+                        <p>Another interesting coincidence is in <em>when</em> the most bigfoot sightings are reported: Across the board, it's summer. According to the <a href="https://www.nps.gov/grsm/learn/nature/black-bears.htm#:~:text=Bear%20Behavior,the%20coming%20of%20cold%20weather." target="_">National Park Service,</a> black bears are most active during spring and--you guessed it--summer.</p>
+                        
+
+                        <!--START COL CHART-->
+                        <div class="addPadding">
+                            <form id="form3" onchange="drawChart3()" >
+
+                            <select id="thedropdown3">
+                            <option value="wash1">Washington 2017-21</option>
+                            <option value="wash2">Washington All Time</option>
+                            <option value="us">U.S. All Time</option>
+                            
+                            </select>
+
+                          </form>
+                          <br>
+                            <div id="column_chart" class="chart"></div>
+                        </div>
+
+                            <script type="text/javascript">
+                              google.charts.load("current", {packages:["corechart"]});
+                              google.charts.setOnLoadCallback(drawChart3);
+
+
+                              function drawChart3() {
+
+                              selection = document.getElementById("thedropdown3").value;
+
+
+                              info = [
+                         {
+                           "scale": "wash1",
+                           "winter": 7,
+                           "spring": 8,
+                           "summer": 12,
+                           "fall": 7
+                         },
+                         {
+                           "scale": "wash2",
+                           "winter": 70,
+                           "spring": 118,
+                           "summer": 236,
+                           "fall": 108
+                         },
+                         {
+                           "scale": "us",
+                           "winter": 745,
+                           "spring": 825,
+                           "summer": 1867,
+                           "fall": 1492
+                         }
+                        ];
+
+
+
+                             for(i=0; i<info.length; i++) {
+
+
+                                        //create the if statement to read the json and have it put the appropriate cities data in the chart based on the dropdown
+                                        if(selection==info[i].scale) {
+                                          z1 = info[i].winter;
+                                          z2 = info[i].spring;
+                                          z3 = info[i].summer;
+                                          z4 = info[i].fall;
+                                        }
+
+
+
+                            } // end for
+
+                                var data = google.visualization.arrayToDataTable([
+                                  ['Season', 'No. of Sightings', {role:'style'}],
+                                  ['Winter', z1, '#F23E28'],
+                                  ['Spring', z2, '#F68072'],
+                                  ['Summer', z3, '#FAA79D'],
+                                  ['Fall', z4, '#FBC2BB']
+
+                                ]);
+
+                                var options = {
+                                  title: 'Reported Bigfoot Sightings by Season',
+                                  vAxis: { title: 'No. of Sightings', textStyle:{color: 'white'} },
+                                  legend: {position:'none'},
+                                  backgroundColor: '#272727',
+                                  titleTextStyle: {color:'white'},
+                                  hAxis: {textStyle: {color:'white'}},
+                                  annotations :{textStyle:{color:'black'}}
+
+                                };
+
+                                var formatter = new google.visualization.NumberFormat({
+                                    prefix: '$'
+                                });
+
+                                formatter.format(data, 1);
+
+
+                                //find the appropriate visualization code to draw a line chart and place it in the div below called line_chart
+
+                                var chart = new google.visualization.ColumnChart(document.getElementById('column_chart'));
+
+                                chart.draw(data, options);
+                              }
+
+                            // this function makes the chart responsive; include the name of the proper drawChart function; if more than one chart on page, include additional statements for each drawChart function
+                            window.onresize = function() {
+                            drawChart3();
+                            }
+
+
+                            </script>
+                        <!--END COL CHART-->
+                        <p>The place and time you're most likely to see a bigfoot happens to be the same place and time you're most likely to see a black bear. It's not damning evidence, but it's reasonable to assume this explains at least some of the sightings, right? And that isn't even factoring in sightings that could've been people or flora.</p>    
+                        <hr>
+
+                        <h2 id="conclusion" class="section-heading text-center">TO BE OR NOT TO BE</h2>
+                        <p>So we've learned that Washington state is far and away the best place to catch sight of a bigfoot--or a black bear, depending on how willing you are to concede that there is no magic in the world.</p>
+
+                        <div class="addMargin">
+                            <img id="compare" class="center" src="assets/img/compare.jpg">
+                            <span class="caption text-muted text-center">The bear is actually more upsetting.</span>
+                        </div>
+
+                        <p>Regardless of whether I believe there's a species of wood ape out there sauntering around in remote forests across America (I don't), it's fascinating to see the lengths people go to to find out for themselves. The passion is truly contagious.</p>
+                        <p>I mean, did you look at some of the methodology these guys employ? The BFRO is doing bigfoot math. If someone is willing to genuinely explore the <em>possibility</em> that there might be something to discover, whether it's bigfoot or not, then I can't say it bothers me.</p>
+                        <a class="noDeco" href="https://www.issaquahreporter.com/northwest/bigfoot-eludes-state-recognition-yet-again/" target="_">
+                            <blockquote class="blockquote quoteEdit">"I'm no scientist. I just believe that we have a ways to go to understand what they really are."</blockquote>
+                        </a>
+
+                        <a class="noDeco" href="https://en.wikipedia.org/wiki/Patterson%E2%80%93Gimlin_film" target="_">
+                        <blockquote class="blockquote">- Bob Gimlin, interviewed by the Issaquah Reporter</blockquote>
+                        </a>
+
+                        <p>By that same token, if Joe Schmoe swears up and down that they saw a cryptid, as long as they aren't wasting people's time and money trying to build a narrative, I'm not going to come down on them. I watched <em>X Files</em>. I know how frustrating it is to be Mulder. How come Scully is ALWAYS in another room when an alien shows up?</p>
+                        
+                        <br>
+
+                    </div>
+
+                <div class="col-lg-2 treecolR">
+                    <!--Empty on purpose-->   
+                </div>
+           
+            </div>
+            </div>
+
+        <img id="bigfootStand" src="assets/img/bigfootStand.png">
+        </article>
+        <!--
+        <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+        -->
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h4 class="text-center text-muted">Site by Jadon Johnson</h4>
+                        <br>
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/JadonCTX" target="_">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/jadon-johnson-813158216/" target="_">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="mailto:jej100@txstate.edu" target="_">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://heyitsjj.com/" target="_">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-desktop fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

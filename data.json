@@ -1,0 +1,1732 @@
+data = [
+ {
+   "state": "Washington",
+   "latitude": 47.73081,
+   "longitude": -117.159,
+   "date": "1/8/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 38.66736,
+   "longitude": -89.87602,
+   "date": "1/20/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 39.4383,
+   "longitude": -89.86021,
+   "date": "1/20/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 38.965,
+   "longitude": -82.905,
+   "date": "1/21/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.90147,
+   "longitude": -122.3347,
+   "date": "1/21/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Louisiana",
+   "latitude": 31.368,
+   "longitude": -92.422,
+   "date": "1/21/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 41.34693,
+   "longitude": -88.23882,
+   "date": "1/22/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 42.1838,
+   "longitude": -88.30026,
+   "date": "1/22/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 41.67433,
+   "longitude": -87.84415,
+   "date": "1/22/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 38.76417,
+   "longitude": -87.60555,
+   "date": "1/24/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 38.96846,
+   "longitude": -89.72024,
+   "date": "1/25/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Kentucky",
+   "latitude": 37.51867,
+   "longitude": -86.05289,
+   "date": "1/29/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Florida",
+   "latitude": 28.42146,
+   "longitude": -81.23721,
+   "date": "1/31/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Arkansas",
+   "latitude": 34.85324,
+   "longitude": -92.25454,
+   "date": "2/10/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.14003,
+   "longitude": -81.49033,
+   "date": "2/12/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Maine",
+   "latitude": 43.2045,
+   "longitude": -70.81187,
+   "date": "2/14/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.82243,
+   "longitude": -124.195,
+   "date": "2/25/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 31.55668,
+   "longitude": -95.38226,
+   "date": "3/15/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 37.5965,
+   "longitude": -90.4935,
+   "date": "4/13/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Kansas",
+   "latitude": 38.176,
+   "longitude": -95.3465,
+   "date": "4/17/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.41704,
+   "longitude": -121.1417,
+   "date": "5/12/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Iowa",
+   "latitude": 43.19481,
+   "longitude": -92.15997,
+   "date": "6/15/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 38.82795,
+   "longitude": -83.56633,
+   "date": "6/17/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 42.10072,
+   "longitude": -112.2149,
+   "date": "6/17/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Texas",
+   "latitude": 30.51559,
+   "longitude": -97.67403,
+   "date": "6/23/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 30.77532,
+   "longitude": -97.93719,
+   "date": "6/24/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 39.56573,
+   "longitude": -82.49833,
+   "date": "6/25/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 44.64824,
+   "longitude": -115.6803,
+   "date": "6/25/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Kentucky",
+   "latitude": 36.92799,
+   "longitude": -88.12511,
+   "date": "6/28/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 37.7925,
+   "longitude": -92.05,
+   "date": "7/8/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Florida",
+   "latitude": 27.35273,
+   "longitude": -82.22301,
+   "date": "7/10/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Oregon",
+   "latitude": 45.24006,
+   "longitude": -121.6794,
+   "date": "7/26/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "West Virginia",
+   "latitude": 38.9695,
+   "longitude": -79.7625,
+   "date": "7/29/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 27.93991,
+   "longitude": -81.67247,
+   "date": "8/2/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 48.75694,
+   "longitude": -116.7338,
+   "date": "8/5/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 39.57143,
+   "longitude": -82.49968,
+   "date": "8/13/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 45.0255,
+   "longitude": -89.02036,
+   "date": "8/15/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 29.27043,
+   "longitude": -81.69337,
+   "date": "8/15/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.84984,
+   "longitude": -122.1455,
+   "date": "8/19/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 38.74625,
+   "longitude": -89.8774,
+   "date": "8/19/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.57132,
+   "longitude": -123.1586,
+   "date": "8/28/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Kansas",
+   "latitude": 39.30595,
+   "longitude": -98.2833,
+   "date": "8/31/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Oregon",
+   "latitude": 45.33935,
+   "longitude": -121.3226,
+   "date": "9/1/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Texas",
+   "latitude": 30.55738,
+   "longitude": -96.42506,
+   "date": "9/2/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.2914,
+   "longitude": -117.4546,
+   "date": "9/3/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 39.75318,
+   "longitude": -89.56226,
+   "date": "9/16/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 48.45359,
+   "longitude": -116.6339,
+   "date": "9/22/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Michigan",
+   "latitude": 44.42654,
+   "longitude": -83.37971,
+   "date": "10/5/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "New York",
+   "latitude": 43.00972,
+   "longitude": -76.10047,
+   "date": "10/6/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 48.73665,
+   "longitude": -116.8596,
+   "date": "10/7/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.49398,
+   "longitude": -117.0579,
+   "date": "10/17/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Connecticut",
+   "latitude": 41.82935,
+   "longitude": -73.15157,
+   "date": "10/18/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 41.29247,
+   "longitude": -83.05098,
+   "date": "10/28/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Michigan",
+   "latitude": 43.38621,
+   "longitude": -84.88741,
+   "date": "10/28/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 31.86794,
+   "longitude": -94.95061,
+   "date": "11/15/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Pennsylvania",
+   "latitude": 40.8495,
+   "longitude": -75.327,
+   "date": "11/17/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 33.25,
+   "longitude": -97.05,
+   "date": "11/25/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Montana",
+   "latitude": 47.25335,
+   "longitude": -114.45,
+   "date": "12/1/2017",
+   "classification": "Class A"
+ },
+ {
+   "state": "Florida",
+   "latitude": 30.5931,
+   "longitude": -83.41369,
+   "date": "12/15/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Texas",
+   "latitude": 33.04,
+   "longitude": -97.18,
+   "date": "12/20/2017",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.36462,
+   "longitude": -82.24197,
+   "date": "1/5/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.10975,
+   "longitude": -80.85938,
+   "date": "1/21/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 39.502,
+   "longitude": -94.29428,
+   "date": "1/29/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 36.72415,
+   "longitude": -93.11722,
+   "date": "2/12/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Texas",
+   "latitude": 31.18523,
+   "longitude": -95.89323,
+   "date": "2/13/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Minnesota",
+   "latitude": 45.8,
+   "longitude": -94.27725,
+   "date": "3/17/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "New York",
+   "latitude": 41.60511,
+   "longitude": -73.59506,
+   "date": "3/18/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 43.21667,
+   "longitude": -88.31644,
+   "date": "3/25/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.48157,
+   "longitude": -122.1845,
+   "date": "4/6/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "New Jersey",
+   "latitude": 39.94853,
+   "longitude": -74.42721,
+   "date": "4/7/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 37.46041,
+   "longitude": -92.63587,
+   "date": "4/14/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 38.99484,
+   "longitude": -84.10731,
+   "date": "4/21/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.1862,
+   "longitude": -122.1054,
+   "date": "4/30/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 45.95919,
+   "longitude": -91.30911,
+   "date": "5/6/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Nebraska",
+   "latitude": 42.15685,
+   "longitude": -96.34203,
+   "date": "5/25/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 45.77225,
+   "longitude": -122.3445,
+   "date": "5/25/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Michigan",
+   "latitude": 46.06728,
+   "longitude": -87.15701,
+   "date": "5/30/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 27.40743,
+   "longitude": -82.12901,
+   "date": "6/1/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Montana",
+   "latitude": 46.93335,
+   "longitude": -113.8334,
+   "date": "6/19/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Oregon",
+   "latitude": 45.85606,
+   "longitude": -123.1691,
+   "date": "6/24/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Michigan",
+   "latitude": 44.56203,
+   "longitude": -83.45052,
+   "date": "6/27/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 45.90015,
+   "longitude": -90.43416,
+   "date": "6/30/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Louisiana",
+   "latitude": 31.60641,
+   "longitude": -93.4991,
+   "date": "7/15/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Minnesota",
+   "latitude": 47.83334,
+   "longitude": -92.92708,
+   "date": "7/17/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Arkansas",
+   "latitude": 36.042,
+   "longitude": -93.1545,
+   "date": "7/22/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 34.125,
+   "longitude": -98.105,
+   "date": "7/30/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 45.63061,
+   "longitude": -92.12408,
+   "date": "7/30/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Connecticut",
+   "latitude": 41.42178,
+   "longitude": -72.85863,
+   "date": "8/4/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "New York",
+   "latitude": 43.55915,
+   "longitude": -73.34116,
+   "date": "8/7/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Colorado",
+   "latitude": 39.4191,
+   "longitude": -105.7065,
+   "date": "8/23/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Tennessee",
+   "latitude": 36.105,
+   "longitude": -84.38335,
+   "date": "8/26/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Indiana",
+   "latitude": 38.63472,
+   "longitude": -86.79333,
+   "date": "8/26/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "California",
+   "latitude": 40.64289,
+   "longitude": -121.8214,
+   "date": "9/4/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.56245,
+   "longitude": -121.8588,
+   "date": "9/15/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.92982,
+   "longitude": -122.2018,
+   "date": "9/15/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.2255,
+   "longitude": -121.805,
+   "date": "9/30/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Kentucky",
+   "latitude": 38.0311,
+   "longitude": -83.1815,
+   "date": "10/18/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Kentucky",
+   "latitude": 38.195,
+   "longitude": -82.868,
+   "date": "10/20/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.44,
+   "longitude": -123.7635,
+   "date": "11/3/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Connecticut",
+   "latitude": 41.95082,
+   "longitude": -72.99536,
+   "date": "11/7/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "California",
+   "latitude": 37.17004,
+   "longitude": -118.5391,
+   "date": "11/10/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 28.12479,
+   "longitude": -82.23728,
+   "date": "11/20/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 44.66862,
+   "longitude": -116.1155,
+   "date": "11/21/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Arkansas",
+   "latitude": 35.55535,
+   "longitude": -93.1716,
+   "date": "11/22/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.65397,
+   "longitude": -117.3349,
+   "date": "12/15/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Georgia",
+   "latitude": 33.37111,
+   "longitude": -84.508,
+   "date": "12/15/2018",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 46.51122,
+   "longitude": -121.2719,
+   "date": "12/31/2018",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 30.71482,
+   "longitude": -86.63961,
+   "date": "1/21/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 38.203,
+   "longitude": -90.5545,
+   "date": "3/8/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Montana",
+   "latitude": 46.24,
+   "longitude": -111.75,
+   "date": "3/9/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "California",
+   "latitude": 41.89288,
+   "longitude": -123.7879,
+   "date": "3/15/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Virginia",
+   "latitude": 37.0048,
+   "longitude": -81.11751,
+   "date": "4/10/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Oklahoma",
+   "latitude": 35.53925,
+   "longitude": -97.67827,
+   "date": "4/15/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 30.19144,
+   "longitude": -94.32404,
+   "date": "4/16/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Colorado",
+   "latitude": 40.26821,
+   "longitude": -105.1821,
+   "date": "5/25/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 41.23925,
+   "longitude": -81.62295,
+   "date": "5/28/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 34.03789,
+   "longitude": -94.32321,
+   "date": "5/30/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Montana",
+   "latitude": 47.98521,
+   "longitude": -113.9818,
+   "date": "6/12/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "New York",
+   "latitude": 43.56058,
+   "longitude": -73.40212,
+   "date": "6/12/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 32.64,
+   "longitude": -97.84,
+   "date": "6/13/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "New Jersey",
+   "latitude": 39.7784,
+   "longitude": -74.54086,
+   "date": "6/20/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 46.64558,
+   "longitude": -121.2323,
+   "date": "6/22/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "South Dakota",
+   "latitude": 44.21694,
+   "longitude": -103.7742,
+   "date": "6/27/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 45.63092,
+   "longitude": -90.02283,
+   "date": "7/9/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 47.19253,
+   "longitude": -116.0776,
+   "date": "7/13/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "North Carolina",
+   "latitude": 35.53467,
+   "longitude": -83.17152,
+   "date": "7/15/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "Oregon",
+   "latitude": 43.85062,
+   "longitude": -122.7085,
+   "date": "7/23/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "Minnesota",
+   "latitude": 46.92417,
+   "longitude": -92.83774,
+   "date": "7/25/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Colorado",
+   "latitude": 39.41087,
+   "longitude": -106.1444,
+   "date": "7/25/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 33.825,
+   "longitude": -96.6075,
+   "date": "7/26/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 45.80191,
+   "longitude": -121.9223,
+   "date": "9/1/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "Connecticut",
+   "latitude": 41.38622,
+   "longitude": -72.60558,
+   "date": "10/6/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Virginia",
+   "latitude": 37.29734,
+   "longitude": -79.85085,
+   "date": "10/15/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Connecticut",
+   "latitude": 41.59272,
+   "longitude": -71.90106,
+   "date": "10/15/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "California",
+   "latitude": 33.03662,
+   "longitude": -116.5645,
+   "date": "10/20/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "California",
+   "latitude": 40.01142,
+   "longitude": -123.9122,
+   "date": "11/2/2019",
+   "classification": "Class B"
+ },
+ {
+   "state": "North Carolina",
+   "latitude": 36.0055,
+   "longitude": -81.08335,
+   "date": "11/18/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 31.1659,
+   "longitude": -94.1679,
+   "date": "11/18/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Georgia",
+   "latitude": 32.5754,
+   "longitude": -81.78378,
+   "date": "12/20/2019",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 45.75957,
+   "longitude": -121.6267,
+   "date": "1/4/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 39.6279,
+   "longitude": -82.83647,
+   "date": "1/20/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "North Carolina",
+   "latitude": 35.33783,
+   "longitude": -83.52992,
+   "date": "1/31/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.16912,
+   "longitude": -80.62003,
+   "date": "2/6/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 39.63255,
+   "longitude": -82.26463,
+   "date": "2/15/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 48.22407,
+   "longitude": -116.8768,
+   "date": "2/15/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.26059,
+   "longitude": -81.22332,
+   "date": "2/16/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.30527,
+   "longitude": -80.93864,
+   "date": "2/16/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.40611,
+   "longitude": -81.13733,
+   "date": "2/29/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.30824,
+   "longitude": -81.24778,
+   "date": "3/4/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Oklahoma",
+   "latitude": 34.4415,
+   "longitude": -94.4325,
+   "date": "4/3/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.10084,
+   "longitude": -81.14331,
+   "date": "4/11/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Pennsylvania",
+   "latitude": 40.60946,
+   "longitude": -80.3293,
+   "date": "4/11/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 39.42606,
+   "longitude": -84.10463,
+   "date": "4/12/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Montana",
+   "latitude": 47.43904,
+   "longitude": -115.6545,
+   "date": "4/15/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Oregon",
+   "latitude": 43.27402,
+   "longitude": -123.9834,
+   "date": "4/15/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Alabama",
+   "latitude": 31.24305,
+   "longitude": -88.31126,
+   "date": "4/16/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 33.2,
+   "longitude": -96.17,
+   "date": "4/18/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Tennessee",
+   "latitude": 35.8823,
+   "longitude": -84.88694,
+   "date": "4/20/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 46.4125,
+   "longitude": -122.182,
+   "date": "4/24/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Colorado",
+   "latitude": 38.71954,
+   "longitude": -106.2384,
+   "date": "5/1/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Indiana",
+   "latitude": 39.24841,
+   "longitude": -86.33011,
+   "date": "5/9/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 38.4125,
+   "longitude": -92.1855,
+   "date": "5/14/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 45.74796,
+   "longitude": -122.2389,
+   "date": "5/15/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "New York",
+   "latitude": 41.49887,
+   "longitude": -73.59659,
+   "date": "5/17/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 46.71444,
+   "longitude": -121.5406,
+   "date": "5/24/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Indiana",
+   "latitude": 38.71342,
+   "longitude": -86.04386,
+   "date": "6/12/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Alabama",
+   "latitude": 33.64341,
+   "longitude": -85.41961,
+   "date": "6/15/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "North Carolina",
+   "latitude": 35.24749,
+   "longitude": -79.97967,
+   "date": "6/18/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.11949,
+   "longitude": -124.5989,
+   "date": "6/30/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "New Mexico",
+   "latitude": 36.90237,
+   "longitude": -106.5784,
+   "date": "7/20/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 38.32304,
+   "longitude": -88.96978,
+   "date": "7/21/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 38.46156,
+   "longitude": -94.14297,
+   "date": "7/23/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "California",
+   "latitude": 37.97761,
+   "longitude": -119.1291,
+   "date": "7/28/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Michigan",
+   "latitude": 43.39116,
+   "longitude": -82.53918,
+   "date": "8/1/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 38.521,
+   "longitude": -94.188,
+   "date": "8/8/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 47.23444,
+   "longitude": -115.6292,
+   "date": "8/8/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Oregon",
+   "latitude": 45.45024,
+   "longitude": -118.3243,
+   "date": "8/12/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.29771,
+   "longitude": -80.75612,
+   "date": "8/14/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "California",
+   "latitude": 36.56304,
+   "longitude": -118.7729,
+   "date": "8/15/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.89745,
+   "longitude": -122.8345,
+   "date": "8/20/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Massachusetts",
+   "latitude": 42.30283,
+   "longitude": -72.53766,
+   "date": "8/26/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.75026,
+   "longitude": -117.5152,
+   "date": "9/2/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 46.1725,
+   "longitude": -121.9305,
+   "date": "9/23/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Maine",
+   "latitude": 44.34113,
+   "longitude": -70.61507,
+   "date": "9/26/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 37.46392,
+   "longitude": -92.52242,
+   "date": "10/5/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 46.75473,
+   "longitude": -116.4292,
+   "date": "10/9/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 37.59461,
+   "longitude": -86.13757,
+   "date": "10/12/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "New York",
+   "latitude": 42.67993,
+   "longitude": -77.29334,
+   "date": "10/15/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 47.23455,
+   "longitude": -116.7369,
+   "date": "10/15/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Oklahoma",
+   "latitude": 36.37919,
+   "longitude": -95.80589,
+   "date": "10/16/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 48.57989,
+   "longitude": -117.5888,
+   "date": "10/17/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Maine",
+   "latitude": 45.04943,
+   "longitude": -68.63222,
+   "date": "10/19/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Virginia",
+   "latitude": 37.33226,
+   "longitude": -76.70926,
+   "date": "10/22/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Texas",
+   "latitude": 32.66908,
+   "longitude": -98.03284,
+   "date": "10/23/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Oklahoma",
+   "latitude": 34.0775,
+   "longitude": -94.4095,
+   "date": "10/26/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 39.59607,
+   "longitude": -82.35291,
+   "date": "10/31/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "South Carolina",
+   "latitude": 34.39092,
+   "longitude": -81.54448,
+   "date": "10/31/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Minnesota",
+   "latitude": 47.87965,
+   "longitude": -91.97748,
+   "date": "11/9/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Maine",
+   "latitude": 44.78159,
+   "longitude": -68.2283,
+   "date": "11/12/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.74207,
+   "longitude": -117.5302,
+   "date": "12/15/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 46.13657,
+   "longitude": -122.1692,
+   "date": "12/16/2020",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 30.6098,
+   "longitude": -86.4945,
+   "date": "12/26/2020",
+   "classification": "Class A"
+ },
+ {
+   "state": "Virginia",
+   "latitude": 37.75926,
+   "longitude": -79.5912,
+   "date": "1/9/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 42.38553,
+   "longitude": -88.35001,
+   "date": "1/9/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.18806,
+   "longitude": -120.554,
+   "date": "1/13/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 46.9805,
+   "longitude": -121.7464,
+   "date": "1/15/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "California",
+   "latitude": 40.03527,
+   "longitude": -123.7876,
+   "date": "1/23/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 30.68441,
+   "longitude": -86.55637,
+   "date": "1/28/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Michigan",
+   "latitude": 45.69347,
+   "longitude": -87.74364,
+   "date": "1/30/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.40192,
+   "longitude": -81.08803,
+   "date": "2/3/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "South Carolina",
+   "latitude": 33.0932,
+   "longitude": -79.8102,
+   "date": "3/15/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Tennessee",
+   "latitude": 36.02328,
+   "longitude": -89.17284,
+   "date": "3/20/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Florida",
+   "latitude": 27.00061,
+   "longitude": -82.39019,
+   "date": "3/27/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.8557,
+   "longitude": -82.26972,
+   "date": "4/24/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Kansas",
+   "latitude": 37.56215,
+   "longitude": -97.85428,
+   "date": "5/17/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.64581,
+   "longitude": -120.607,
+   "date": "5/21/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "North Carolina",
+   "latitude": 35.53467,
+   "longitude": -83.17152,
+   "date": "5/30/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.79538,
+   "longitude": -120.6295,
+   "date": "5/31/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "California",
+   "latitude": 41.0312,
+   "longitude": -123.669,
+   "date": "6/6/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.81139,
+   "longitude": -82.26806,
+   "date": "6/9/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Arizona",
+   "latitude": 35.175,
+   "longitude": -109.25,
+   "date": "6/10/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Missouri",
+   "latitude": 39.83804,
+   "longitude": -93.6515,
+   "date": "6/11/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Tennessee",
+   "latitude": 35.22149,
+   "longitude": -87.39061,
+   "date": "6/12/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Colorado",
+   "latitude": 38.02372,
+   "longitude": -107.193,
+   "date": "6/12/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 37.44508,
+   "longitude": -88.36589,
+   "date": "6/13/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.61309,
+   "longitude": -82.31692,
+   "date": "6/18/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.01452,
+   "longitude": -81.34529,
+   "date": "7/6/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.91197,
+   "longitude": -80.70913,
+   "date": "7/17/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 43.26699,
+   "longitude": -88.29105,
+   "date": "7/18/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Ohio",
+   "latitude": 40.36887,
+   "longitude": -80.81801,
+   "date": "7/24/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Virginia",
+   "latitude": 37.17433,
+   "longitude": -82.39963,
+   "date": "7/26/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Pennsylvania",
+   "latitude": 40.33498,
+   "longitude": -77.85934,
+   "date": "8/12/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.52877,
+   "longitude": -122.7197,
+   "date": "8/27/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.21551,
+   "longitude": -120.9383,
+   "date": "8/27/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Texas",
+   "latitude": 32.79338,
+   "longitude": -94.69412,
+   "date": "9/22/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.34432,
+   "longitude": -120.9477,
+   "date": "10/15/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Wisconsin",
+   "latitude": 46.08392,
+   "longitude": -89.91314,
+   "date": "10/17/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Washington",
+   "latitude": 47.97637,
+   "longitude": -117.7324,
+   "date": "10/22/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 43.71597,
+   "longitude": -115.3929,
+   "date": "10/29/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Oklahoma",
+   "latitude": 34.50572,
+   "longitude": -95.12156,
+   "date": "10/30/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "South Carolina",
+   "latitude": 35.14947,
+   "longitude": -81.60892,
+   "date": "10/30/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 47.5405,
+   "longitude": -115.947,
+   "date": "11/1/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Idaho",
+   "latitude": 46.75905,
+   "longitude": -115.8545,
+   "date": "11/8/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Utah",
+   "latitude": 40.98583,
+   "longitude": -110.3961,
+   "date": "11/14/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Florida",
+   "latitude": 27.01091,
+   "longitude": -80.10344,
+   "date": "11/15/2021",
+   "classification": "Class A"
+ },
+ {
+   "state": "Alabama",
+   "latitude": 30.31786,
+   "longitude": -87.64934,
+   "date": "11/21/2021",
+   "classification": "Class B"
+ },
+ {
+   "state": "Illinois",
+   "latitude": 40.06831,
+   "longitude": -90.15218,
+   "date": "11/27/2021",
+   "classification": "Class A"
+ }
+
+];
